@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+@media (min-width: 80em) {
+  html .page__content {font-size: 18px;}
+}
+@media (min-width: 64em) {
+  html .page__content {font-size: 18px;}
+}
+
+.page__hero--overlay .page__title {
+  color: #000;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.page__hero--overlay .page__lead {
+  color: #000;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 1.0em;
+}
+.page__hero--overlay a {
+    color: inherit;
+}
+
+.page__hero--overlay .btn {
+  background-color: rgb(239, 39, 70);
+  color: #fff;
+  text-shadow: none;
+  font-weight: 300;
+}
+
+.masthead__inner-wrap {
+  font-family: sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+.masthead__menu-item {
+  font-weight: 300;
+}
+
+.greedy-nav a.site-title {
+  font-family: sans-serif;
+  color: #000;
+  font-weight: 300;
+}
+
+.greedy-nav a {
+  font-family: sans-serif;
+  color: #383333;
+  font-weight: 300;
+}
+
+.greedy-nav a:hover {
+  color: #000;
+}
+
+.nav__list .nav__items .nav__sub-title {
+  text-transform: none;
+}
+
+.nav__list .nav__items .active {
+  color: #000;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.page__content img {
+  border: 1px silver solid;
+}
+
+.feature__item img {
+  border: 0;
+}

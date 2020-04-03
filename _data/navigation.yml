@@ -1,0 +1,140 @@
+# main links
+main:
+  - title: "MobileIronでできること"
+    url: /mobileiron/usecases/
+  - title: "動画で学ぶ"
+    url: /videos/
+  - title: "クイックスタートガイド"
+    url: /cloud-quickstart-guide/activation/
+#  - title: "技術ノート"
+#    url: /technotes/
+# - title: "体験セミナー"
+#   url: /miniseminar/
+
+
+# sidebar navigations
+mobileiron:
+  - title: "MobileIronの活用例"
+    children:
+      - title: "多様なユースケース"
+        url: /mobileiron/usecases/
+      - title: "ナレッジワーカー：会社支給デバイス"
+        url: /mobileiron/knowledgeworker-cope/
+      - title: "ナレッジワーカー：BYOD"
+        url: /mobileiron/knowledgeworker-byod/
+      - title: "店舗等での特定業務専用端末"
+        url: /mobileiron/taskworker/
+  - title: "セキュリティとユーザー体験"
+    children:
+      - title: "仕事と個人の領域分離（デバイス内）"
+        url: /mobileiron/separation-on-device/
+      - title: "生産性の高いアプリをそのまま利用"
+        url: /mobileiron/choice-of-apps/
+      - title: "仕事と個人の領域分離（ネットワーク）"
+        url: /mobileiron/separation-network/
+      - title: "パスワード不要のゼロ・サインオン"
+        url: /mobileiron/zero-sign-on/
+      - title: "管理外のPCからもゼロ・サインオン"
+        url: /mobileiron/zso-unmanaged-desktop/
+      - title: "モバイル脅威防御"
+        url: /mobileiron/mobile-threat-defense/
+  - title: "製品コンポーネントと役割"
+    children:
+      - title: "MobileIron製品アーキテクチャ"
+        url: /mobileiron/architecture/
+
+cloud-quickstart-guide:
+  - title: "はじめに"
+    children:
+      - title: "テナントのアクティベーション"
+        url: /cloud-quickstart-guide/activation/
+      - title: "オンラインヘルプ"
+        url: /cloud-quickstart-guide/onlinehelp/
+  - title: "ユーザーとデバイス"
+    children:
+      - title: "ローカルユーザーを作成する"
+        url: /cloud-quickstart-guide/localuser/
+      - title: "属性"
+        url: /cloud-quickstart-guide/attributes/
+      - title: "ユーザーグループ"
+        url: /cloud-quickstart-guide/usergroup/
+      - title: "デバイスグループ"
+        url: /cloud-quickstart-guide/devicegroup/
+      - title: "管理者の追加と役割"
+        url: /cloud-quickstart-guide/userrole/
+#  - title: "ポリシーと構成"
+  - title: "iOS"
+    children:
+      - title: "Apple MDMを有効にする"
+        url: /cloud-quickstart-guide/applemdmcert/
+      - title: "デバイスを登録する"
+        url: /cloud-quickstart-guide/ios-registration/
+      - title: "チェックインの動作"
+        url: /cloud-quickstart-guide/ios-mdm-checkin/
+      - title: "仕事のアプリを配布する"
+        url: /cloud-quickstart-guide/ios-app-distribution/
+      - title: "デバイスへのアプリのインストール"
+        url: /cloud-quickstart-guide/ios-install-apps/
+      - title: "Office 365 を設定する（iOS標準アプリ）"
+        url: /cloud-quickstart-guide/ios-o365-apple-apps/
+      - title: "Office 365 を設定する（MS Outlook）"
+        url: /cloud-quickstart-guide/ios-o365-ms-outlook/
+      - title: "G Suiteを設定する（iOS標準アプリ）"
+        url: /cloud-quickstart-guide/ios-gsuite-apple-apps/
+      - title: "G Suiteを設定する（Gmailアプリ）"
+        url: /cloud-quickstart-guide/ios-gsuite-google-gmail/
+      - title: "iOSのサンドボックス構造とOpen-In"
+        url: /cloud-quickstart-guide/ios-managed-open-in-config/
+      - title: "Managed Open-Inの動作"
+        url: /cloud-quickstart-guide/ios-managed-open-in-experience/
+      - title: "MDMアクション（ロック/アンロック）"
+        url: /cloud-quickstart-guide/ios-mdm-lock-unlock/
+      - title: "MDMアクション（ワイプ/撤去）"
+        url: /cloud-quickstart-guide/ios-mdm-wipe-retire/
+#      - title: "MDMアクション（紛失モード）"
+#        url: /cloud-quickstart-guide/ios-mdm-lost-mode/
+#      - title: "MDMアクション（アクティベーションロックバイパス）"
+#        url: /cloud-quickstart-guide/ios-mdm-activation-lock-bypass/
+  - title: "Android (preview)"
+    children:
+      - title: "Android Enterpriseを有効にする"
+        url: /cloud-quickstart-guide/ae-setup/
+      - title: "Android Enterpriseの３つの管理モード"
+        url: /cloud-quickstart-guide/ae-intro/
+      - title: "Managed Google Playでアプリを配布する"
+        url: /cloud-quickstart-guide/ae-managed-goole-play/
+      - title: "MobileIron Goアプリの権限承認設定"
+        url: /cloud-quickstart-guide/ae-goapp-permission/
+      - title: "デバイスを登録する（Work Profile）"
+        url: /cloud-quickstart-guide/ae-register-wp/
+      - title: "デバイスを登録する（Fully Managed + Work Profile）"
+        url: /cloud-quickstart-guide/ae-register-comp/
+      - title: "デバイスを登録する（Fully Managed）"
+        url: /cloud-quickstart-guide/ae-register-do/
+      - title: "準備中..."
+videos:
+  - title: "iOS"
+    children:
+      - title: "デバイス登録"
+        url: /videos/ios-registration/
+      - title: "アプリ管理"
+        url: /videos/ios-app-management/
+      - title: "領域分離"
+        url: /videos/ios-containerization/
+      - title: "MDMアクション"
+        url: /videos/ios-mdm-actions/
+  - title: "Android Enterprise"
+    children:
+      - title: "3つの管理モードを理解する"
+        url: /videos/ae-mdm-action-in-3modes/
+      - title: "デバイス登録"
+        url: /videos/ae-registration/
+      - title: "アプリ管理"
+        url: /videos/ae-app-management/
+      - title: "領域分離"
+        url: /videos/ae-containerization/
+  - title: "MobileIron Access"
+    children:
+      - title: "ゼロ・サインオン"
+        url: /videos/zso/
+        
