@@ -68,6 +68,10 @@ Safariに自動で切り替わり、プロファイルのダウンロードの�
 
 これでデバイス登録は完了です。
 
+もう一度MobileIron Goアプリを開くと、以下のように登録済みの画面が表示されます。  
+![](/assets/cloud-quickstart-guide/images/622BA4A8-1634-48FD-9F00-2241ABD00B73.png)
+
+
 MobileIron Cloudの管理画面では、デバイスの登録が完了すると、［デバイス］→［デバイス］のリストに追加されます。ユーザー名やOS、デバイスの種類などを確認することができます。個々のデバイスの管理はこの画面で行います。  
 ![](/assets/cloud-quickstart-guide/images/928C1980-EC48-4C53-AC57-F9925B3F2DC2.png)
 
@@ -93,6 +97,8 @@ MobileIron Goの代わりにSafariを使ってデバイスを登録する手順�
 以上でデバイス登録は完了ですが、しばらくするとMobileIron Goアプリのインストールが促されます。「Appのインストール」ダイアログが表示されたら［インストール］をタップしてください。インストールしたMobileIron Goアプリは一度だけ手作業でタップして開いて下さい。これによりMobileIron Goアプリの登録処理が行われます。（認証は必要無く、自動的に完了します）  
 ![](/assets/cloud-quickstart-guide/images/342969C0-7C33-43C4-B340-B18EC389A747.png)
 
+![](/assets/cloud-quickstart-guide/images/622BA4A8-1634-48FD-9F00-2241ABD00B73.png)
+
 <div class="notice--info">
 <p><strong>Apple MDM と MobileIron Go の関係</strong></p>
 
@@ -103,7 +109,7 @@ MobileIron GoアプリはApple MDMで定義されている以外の、MobileIron
 </div>
 
 <div class="notice--info">
-<p><strong>MobileIron Go と Safari、どちらで登録したら良いか</strong></p>
+<p><strong>MobileIron Goからデバイス登録と、Safariからデバイス登録の違い</strong></p>
 
 <p>どちらの方法で登録を開始しても、順番が変わるだけで結果としてMDMプロファイルのインストールとMobileIron Goアプリのインストールが行われました。MobileIron Goアプリから登録を開始する場合、AppStoreからMobileIron Goアプリをダウンロードするために、ユーザーのApple IDが必ず必要になります。これは特に会社支給のデバイスでApple IDが作成されていないようなケースでは不都合です。一方Safariを使ってApple MDMとしてのデバイス登録を先に完了させた場合、MobileIron GoアプリのインストールはMDM命令として実行されています。このとき、本ガイドではやはりユーザーのApple IDが必要になりましたが、別途MobileIron CloudとApple Business Managerを連携し、アプリの一括購入とMDMによるライセンス割り当てを設定すれば、ユーザーのApple IDを使わずにMobileIron Goアプリを配布することが可能になります。</p>
 </div>
