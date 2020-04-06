@@ -24,7 +24,7 @@ MobileIron Cloudから管理できるのは、仕事の領域とその中にイ�
 デバイス全体を企業で管理し、企業で指定したアプリのみが利用できるのがFully Managedです。ユーザーが自由にアプリをインストールして利用できる個人領域はありません。
 
 工場出荷状態に初期化したデバイスの電源を入れると「ようこそ」画面となりますが、ここで特別なセットアップ方法をとることでFully Managed モードでセットアップできます。具体的には以下のいずれかの方法によります。
-- **afw#トークン：** ようこそ画面から数ステップ先に進んだGoogleアカウントの入力画面で、Googleアカウントの代わりに"afw#mobileiron.com"と入力します。
+- **afw#トークン：** ようこそ画面から数ステップ先に進んだGoogleアカウントの入力画面で、Googleアカウントの代わりに"afw#mobileiron.cloud"と入力します。
 - **QRコード：** ようこそ画面の余白を６回タップするとQRコードリーダーが起動します。別のAndroidデバイスに、Google Playで配布されている「MobileIron Provisioner」アプリをインストールし、これで表示させたQRコード撮影します。
 - **NFC：** 別のAndroidデバイスにインストールした「MobileIron Provisioner」アプリでNFCによるセットアップを有効にし、これからセトアップする「ようこそ」画面の端末とNFCアンテナ同士を近づけます。
 - **ゼロタッチ：** Googleのゼロタッチ対応認定リセラーを通じて企業で購入したデバイスでは、「ようこそ」画面から通常操作でセットアップを進めても自動的にFully Managedモードを構成できます。
@@ -35,11 +35,10 @@ MobileIron Cloudから管理できるのは、仕事の領域とその中にイ�
 
 Fully Managedモードと同様にデバイス全体を企業で管理するものの、ユーザーが自由にアプリをインストールして利用できる個人領域も用意されているのがFully Managed + Work Profileモードです。
 
-デバイスのセットアップ方法はFully Managedと同じで「ようこそ」画面から特別なセットアップ方法のいずれかを行います。
+デバイスのセットアップ方法はFully Managedと同じで、「ようこそ」画面から特別なセットアップ方法のいずれかを行います。
 
 ## デバイス登録時の管理モード選択のしくみ
 
-３つの管理モードのうち、どのモードで管理されるかは、MobileIron Cloudへのデバイス登録時に決まります。通常の初期セットアップを行ったデバイスにMobileIron Goをインストールしてデバイス登録した場合には、Work Profileにしかなりません。
-企業がデバイス全体の管理権限を持つ、Fully Managed または Fully Managed + Work Profile にするためには「ようこそ」画面から特別なセットアップが必要です。またこのとき Fully Managed と Fully Managed + Work Profile のどちらになるかは、MobileIron Cloud側の設定によって決定します。詳しくは後のデバイス登録のページで説明します。
-
+３つの管理モードのうち、どのモードで管理されるかは、MobileIron Cloudへのデバイス登録時に決まります。通常の初期セットアップを行ったデバイスにMobileIron Goをインストールしてデバイス登録した場合には、Work Profileにしかなりません。  
+企業がデバイス全体の管理権限を持つ、Fully Managed または Fully Managed + Work Profile にするためには「ようこそ」画面から特別なセットアップが必要です。またこのとき Fully Managed と Fully Managed + Work Profile のどちらになるかは、MobileIron Cloud側の設定によって決定します。詳しくは後のデバイス登録のページで説明します。  
 ![](/assets/cloud-quickstart-guide/images/A514A635-4BD9-48C1-A773-117A064F2701.png)

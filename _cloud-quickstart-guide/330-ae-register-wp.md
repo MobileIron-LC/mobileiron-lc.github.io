@@ -2,19 +2,18 @@
 title: "デバイスを登録する（Work Profile）"
 permalink: /cloud-quickstart-guide/ae-register-wp/
 ---
-
 初回電源投入時の初期設定を終えた（あるいは既に個人として利用中の）、Google Playが利用可能な状態のAndroidデバイスを用意します。このデバイスをMobileIron Cloudに登録することにより、仕事の領域（Work Profile）が作成され、その中で仕事のアプリを利用できるようになります。  
 
 Google Playから「MobileIron Go」アプリをインストールして開きます。  
 ![](/assets/cloud-quickstart-guide/images/748E3AD2-25BE-490F-86D3-3CCA36B9B993.jpg)
 
-MobileIronのロゴの後、プライバシー声明が表示されます。続行をタップ。  
+MobileIronのロゴの後、プライバシー声明が表示されます。［続行］をタップ。  
 ![](/assets/cloud-quickstart-guide/images/624318E9-0194-4023-A5A2-3A34DC1A69F5.png)
 
 MobileIron Cloudに作成したユーザーのユーザーIDを入力します。  
 ![](/assets/cloud-quickstart-guide/images/6E9A31E0-CD79-45B4-A9C1-B0149AEA668C.png)
 
-続いてこのユーザーのパスワードを入力し「サインイン」ボタンを押します。  
+続いてこのユーザーのパスワードを入力し［サインイン］ボタンを押します。  
 ![](/assets/cloud-quickstart-guide/images/EFD42675-38B6-4CBC-9573-289B0473A3FC.png)
 
 ユーザーの認証が完了し、仕事領域のセットアップが始まります。  
@@ -41,7 +40,7 @@ MobileIron Cloudに作成したユーザーのユーザーIDを入力します�
 この例のようにWorkフォルダが作られるか、あるいは個人用と仕事用のタブが現れるか、またアプリカタログで配布している以外のアプリがデフォルトで仕事領域にも複製されるかなどは、デバイスの機種やAndroidバージョンによって異なります。
 {: .notice--info}
 
-仕事のGoogle Playを開くと、App Catalogで配布の設定を行なったアプリだけが表示されており、それ以外のアプリをユーザーが勝手にインストールすることはできません。  
+仕事のGoogle Playを開くと、アプリカタログで配布の設定を行なったアプリだけが表示されており、それ以外のアプリをユーザーが勝手にインストールすることはできません。  
 ![](/assets/cloud-quickstart-guide/images/5057CEA0-36F0-475F-AB3C-E78150FD0F3E.jpg)
 
 またGoogle Playアカウントの氏名にはMobileIron Cloud上のユーザー名が反映されています。  
