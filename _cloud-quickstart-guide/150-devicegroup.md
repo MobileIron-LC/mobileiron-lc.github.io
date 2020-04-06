@@ -23,7 +23,7 @@ permalink: /cloud-quickstart-guide/devicegroup/
 
 動的管理ユーザーグループの定義としてよく利用されるのが、特定のユーザーグループのメンバーが所持するデバイスのグループです。グループ定義のフィルタ条件となっているユーザーのデバイスが登録されると、自動的にそのデバイスグループに所属します。
 
-デバイス > デバイスグループ > +追加
+［デバイス］>［デバイスグループ］>［+追加］
 
 動的管理タブを選択し、ユーザーグループが一致することを条件とするルールを定義します。  
 ![](/assets/cloud-quickstart-guide/images/B91A2D0B-CCB0-459B-A4E3-C13E019CD6D7.png)
@@ -34,7 +34,7 @@ permalink: /cloud-quickstart-guide/devicegroup/
 
 手動管理のデバイスグループは素早く直感的に作成できます。
 
-デバイス > デバイスグループ > +追加
+［デバイス］>［デバイスグループ］>［+追加］
 
 手動管理タブを選択し、MobileIron Cloudに登録済みのデバイスの中から、グループに含めたいデバイスを選択します。  
 ![](/assets/cloud-quickstart-guide/images/B0D973B8-7434-423A-928D-A006B39DD46B.png)
@@ -46,7 +46,7 @@ permalink: /cloud-quickstart-guide/devicegroup/
 
 動的管理デバイスグループは、デバイスが持つ様々な属性情報やステータスを条件として定義することができます。前に作成したカスタムデバイス属性を用いてルールを定義してみます。
 
-デバイス > デバイスグループ > +追加
+［デバイス］> ［デバイスグループ］>［+追加］
 
 動的管理タブを選択し、カスタムデバイス属性とその値を条件とするルールを定義します。  
 ![](/assets/cloud-quickstart-guide/images/B54F4007-FB7C-4876-B035-841CBE59FA7A.png)
@@ -56,5 +56,5 @@ permalink: /cloud-quickstart-guide/devicegroup/
 
 後でデバイスにカスタム属性の値を設定することでデバイスグループに含められます。
 
-デバイス > デバイス >（名前を選択して詳細表示）> 属性タブ  
+［デバイス］>［デバイス］>（名前を選択して詳細表示）>［属性］タブ  
 ![](/assets/cloud-quickstart-guide/images/F2B108EE-87AE-4C70-8DAA-4D7153E37AE6.png)
