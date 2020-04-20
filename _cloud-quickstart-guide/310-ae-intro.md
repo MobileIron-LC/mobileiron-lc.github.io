@@ -13,9 +13,7 @@ Android Enterpriseには次の３つの管理モードがあり、ユースケ�
 
 もともと個人のGoogleアカウントを設定して利用しているAndroidデバイスを、MobileIron Cloudに登録することにより、企業の領域であるWork Profileが構成されます。以下のスクリーンショットはWork Profileが構成されたデバイスの例です。Playストアが個人用と仕事用の領域それぞれに表示されています。仕事用のPlayストアからはIT管理者が指定したパブリックアプリまたはインハウス開発アプリのみがインストール可能で、デバイス上で仕事のアプリはカバンのマークのバッジ付きで表示されます。※Androidバージョンや機種によってアイコンのレイアウトのされ方は異なります。この例では個人用アプリと仕事用アプリがタブで分けられた表示になっていますが、機種によっては仕事用アプリがフォルダに集められたり、あるいは特に分けられることなくホームスクリーンに追加されたりします。
 
-![](/assets/cloud-quickstart-guide/images/09185833-1f2f-48a8-8c68-b49baa9f78b6.png)
-
-![](/assets/cloud-quickstart-guide/images/2cee8080-ddb7-4223-828d-976bc9548dfc.png)
+![](/assets/cloud-quickstart-guide/images/09185833-1f2f-48a8-8c68-b49baa9f78b6.png) ![](/assets/cloud-quickstart-guide/images/2cee8080-ddb7-4223-828d-976bc9548dfc.png)
 
 MobileIron Cloudから管理できるのは、仕事の領域とその中にインストールしたアプリのみです。企業はデバイス全体をワイプしたり、ハードウェア機能をロックダウン（無効化）したり、個人の領域にインストールされたアプリの一覧を取得したりすることはできません。
 

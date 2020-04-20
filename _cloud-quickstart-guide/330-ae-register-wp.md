@@ -43,9 +43,6 @@ MobileIron Cloudに作成したユーザーのユーザーIDを入力します�
 仕事のGoogle Playを開くと、アプリカタログで配布の設定を行なったアプリだけが表示されており、それ以外のアプリをユーザーが勝手にインストールすることはできません。  
 ![](/assets/cloud-quickstart-guide/images/5057CEA0-36F0-475F-AB3C-E78150FD0F3E.jpg)
 
-またGoogle Playアカウントの氏名にはMobileIron Cloud上のユーザー名が反映されています。  
-![](/assets/cloud-quickstart-guide/images/DF5FBCF1-12B5-4AC6-AB61-CF28C6B18648.jpg)
-
 MobileIron Cloud側でも登録されたデバイスのレコードが確認できます。青字になっているユーザー名をクリックすると詳細が表示されます。  
 ![](/assets/cloud-quickstart-guide/images/2137A8DE-2526-4513-8693-5C9D7F9149FF.png)
 

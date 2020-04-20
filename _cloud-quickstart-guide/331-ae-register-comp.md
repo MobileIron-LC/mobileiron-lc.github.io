@@ -22,23 +22,23 @@ Googleアカウントへのログイン画面になったら、「afw#mobileiron
 ![](/assets/cloud-quickstart-guide/images/BDCB5218-9571-4267-82F4-9FE8A8F57691.png)
 
 初期設定が完了しホーム画面が表示された後、MobileIron Goアプリが自動的に起動します。この時点では未だMobileIron Cloudへのデバイス登録は完了していません。  
-![](/assets/cloud-quickstart-guide/images/71BE7E8C-3CF8-44F5-AB42-35B29BC53313.png)
+![](/assets/cloud-quickstart-guide/images/71BE7E8C-3CF8-44F5-AB42-35B29BC53313.jpg)
 
 ここで戻るマークをタップしてもMobileIron Goを抜けてホーム画面に移ることはできません。MobileIron Goを終了した場合、デバイスは再び工場出荷時にリセットされます。  
-![](/assets/cloud-quickstart-guide/images/3642287A-3CD1-41B1-B0FF-EBB857BA434D.png)
+![](/assets/cloud-quickstart-guide/images/3642287A-3CD1-41B1-B0FF-EBB857BA434D.jpg)
 
 MobileIron Goのセットアップを続行すると、MobileIron Cloudユーザーでの認証を求められます。この先MobileIron Goアプリでの登録操作はWork Profileの場合と同じです。  
-![](/assets/cloud-quickstart-guide/images/67570B58-7206-4C50-B18F-6B473DA339CB.png)
+![](/assets/cloud-quickstart-guide/images/67570B58-7206-4C50-B18F-6B473DA339CB.jpg)
 
 MobileIron Goアプリでデバイス登録操作が完了するとホーム画面へ移ることができます。  
-![](/assets/cloud-quickstart-guide/images/A81208A7-EAEE-4C72-A8E2-0682748795B7.png)
+![](/assets/cloud-quickstart-guide/images/A81208A7-EAEE-4C72-A8E2-0682748795B7.jpg)
 
 アプリの一覧を見てみましょう。Work Profileモードで登録した場合と同様に、Playストアが２つあり、仕事のアプリと個人のアプリを領域を分けて利用することができます。また仕事のアプリには鞄のマークが表示されています。  
 細かな違いですがFully Managed + Work Profileモードにおいてデバイス管理エージェントのMobileIron Goアプリには鞄のマークがありません。Work Profileモードと違い、MobileIron Goアプリがデバイス全体の管理権限を持っていることを示しています。  
 ![](/assets/cloud-quickstart-guide/images/00C95259-7C2E-4EA3-AFFE-61D0AD8417C3.png)
 
-鞄マークのある仕事のPlayストアを開いてみます。MobileIron Cloudユーザーとして、管理者から配布されたアプリのみが利用可能であることがわかります。  
-![](/assets/cloud-quickstart-guide/images/F6566C5F-52D5-4C08-984B-D0D376E643FD.png)
+鞄マークのある仕事のPlayストアを開いてみます。管理者から配布されたアプリのみが利用可能であることがわかります。  
+![](/assets/cloud-quickstart-guide/images/F26FF58C-ACF0-4A9A-926F-61710B1BBE6B.png)
 
 一方で鞄マークの無いPlayストアにはログインがされていません。ユーザーが個人のGoogleアカウントでログインすることで、通常のPlayストアから任意のアプリをデバイスの個人領域にインストールすることができます。  
 ![](/assets/cloud-quickstart-guide/images/018F97FF-1E9E-4592-89DF-5CBEC748A58D.png)

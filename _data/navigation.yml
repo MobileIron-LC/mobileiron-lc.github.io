@@ -111,8 +111,20 @@ cloud-quickstart-guide:
         url: /cloud-quickstart-guide/ae-register-comp/
       - title: "デバイスを登録する（Fully Managed）"
         url: /cloud-quickstart-guide/ae-register-do/
-      - title: "準備中..."
+      - title: "機能制限と高度なパスコードポリシー"
+        url: /cloud-quickstart-guide/ae-lockdown-and-passcode/
+      - title: "Office 365 を設定する（MS Outlook）"
+        url: /cloud-quickstart-guide/ae-o365-ms-outlook/
+      - title: "G Suiteを設定する（Gmailアプリ）"
+        url: /cloud-quickstart-guide/ae-gsuite-google-gmail/
+      - title: "コンテンツ準備中..."
 videos:
+#  - title: "ユースケース"
+#    children:
+#      - title: "MobileIron社員のリモートワーク環境"
+#        url: /videos/usecase-remote-work/
+#      - title: "BYOD (Android)"
+#        url: /videos/usecase-bypd-android/
   - title: "iOS"
     children:
       - title: "デバイス登録"

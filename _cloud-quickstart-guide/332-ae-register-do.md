@@ -25,10 +25,12 @@ MobileIron CloudにはAndroid Enterpriseの３つのモードに対応する構�
 これで優先度の低い「Work Managed Device」構成が割り当たるようになりました。  
 ![](/assets/cloud-quickstart-guide/images/FAFCE05E-8AFB-48DA-A54C-8A982B85D37E.png)
 
-今回は「Managed Device with Work Profile」が全く割り当たらないように配布先を「なし」にしてしまいましたが、特定のユーザーや特定のデバイスの種類などを条件としたデバイスグループを作成して割り当てることもできます。
+**ヒント** 今回は「Managed Device with Work Profile」が全く割り当たらないように配布先を「なし」にしてしまいましたが、特定のユーザーや特定のデバイスの種類などを条件としたデバイスグループを作成して割り当てることもできます。
+{: .notice--info}
 
 ## デバイスの登録
 
 Fully Managedモードのデバイス登録手順は、Fully Managed + Work Profileの場合と全く同じです。
 
-MobileIron Goの登録後にホーム画面を確認すると、アイコンに鞄のマークは付いていません。Fully Managedモードのデバイスには仕事の領域しか無いため、鞄マークで分けて表示する必要が無いためです。
+MobileIron Goの登録後にホーム画面を確認すると、アイコンに鞄のマークは付いていません。Fully Managedモードのデバイスには仕事の領域しか無いため、鞄マークで分けて表示する必要が無いためです。  
+![](/assets/cloud-quickstart-guide/images/D68E3A9D-E22A-468F-8A87-41B32BC48F1D.png)
