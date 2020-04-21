@@ -117,6 +117,8 @@ cloud-quickstart-guide:
         url: /cloud-quickstart-guide/ae-o365-ms-outlook/
       - title: "G Suiteを設定する（Gmailアプリ）"
         url: /cloud-quickstart-guide/ae-gsuite-google-gmail/
+      - title: "プロファイル間の共有の禁止動作"
+        url: /cloud-quickstart-guide/ae-sharing-restriction-experience/
       - title: "コンテンツ準備中..."
 videos:
 #  - title: "ユースケース"
