@@ -95,7 +95,7 @@ cloud-quickstart-guide:
 #        url: /cloud-quickstart-guide/ios-mdm-lost-mode/
 #      - title: "MDMアクション（アクティベーションロックバイパス）"
 #        url: /cloud-quickstart-guide/ios-mdm-activation-lock-bypass/
-  - title: "Android (preview)"
+  - title: "Android"
     children:
       - title: "Android Enterpriseを有効にする"
         url: /cloud-quickstart-guide/ae-setup/
@@ -119,7 +119,8 @@ cloud-quickstart-guide:
         url: /cloud-quickstart-guide/ae-gsuite-google-gmail/
       - title: "プロファイル間の共有の禁止動作"
         url: /cloud-quickstart-guide/ae-sharing-restriction-experience/
-      - title: "コンテンツ準備中..."
+      - title: "MDMアクション"
+        url: /cloud-quickstart-guide/ae-mdm-lock-unlock-wipe-retire/
 videos:
 #  - title: "ユースケース"
 #    children:
