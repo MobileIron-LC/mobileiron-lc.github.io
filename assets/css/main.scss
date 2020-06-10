@@ -81,3 +81,24 @@
 .feature__item img {
   border: 0;
 }
+
+
+.tile__menu .feature__item {
+  margin-bottom: 1em;
+}
+
+.tile__menu a {
+  border: #c2c8cc solid 1px;
+  border-radius: 4px;
+  color: #262e3c;
+  text-decoration: none;
+  display: block;
+}
+
+.tile__menu a:hover {
+  border: #70b3f2 solid 1px;
+}
+
+.page__content .tile__menu a:not(.btn):not(#goog-wm-sb):hover {
+  text-decoration: none;
+}

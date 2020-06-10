@@ -277,6 +277,17 @@ defaults:
       comments: false
       sidebar:
         nav: "videos"
+  # _technotes
+  - scope:
+      path: ""
+      type: technotes
+    values:
+      layout: single
+      classes: wide
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
 
 # Sass/SCSS
 sass:

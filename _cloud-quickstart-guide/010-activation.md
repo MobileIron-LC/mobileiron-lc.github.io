@@ -1,6 +1,6 @@
 ---
 title: "テナントのアクティベーション"
-permalink: /cloud-quickstart-guide/activation/
+permalink: /cloud-quickstart-guide/
 ---
 
 ## 新規MobileIron Cloudテナント発行の通知

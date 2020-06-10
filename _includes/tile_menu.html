@@ -1,0 +1,43 @@
+{% if include.id %}
+  {% assign tile_menu = page[include.id] %}
+{% else %}
+  {% assign tile_menu = page.tile_menu %}
+{% endif %}
+
+<div class="tile__menu">
+
+  {% for t in tile_menu %}
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    {% if t.url %}
+    <a href="{{ t.url | relative_url }}">
+    {% endif %}
+      <div class="archive__item">
+        {% if t.image_path %}
+          <div class="archive__item-teaser">
+            <img src="{{ t.image_path | relative_url }}"
+                 alt="{% if t.alt %}{{ t.alt }}{% endif %}">
+            {% if t.image_caption %}
+              <span class="archive__item-caption">{{ t.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if t.title %}
+            <h2 class="archive__item-title">{{ t.title }}</h2>
+          {% endif %}
+
+          {% if t.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ t.excerpt | markdownify }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% if t.url %}
+    </a>
+    {% endif %}
+    </div>
+  {% endfor %}
+
+</div>

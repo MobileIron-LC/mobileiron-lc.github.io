@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "MobileIronでできること"
-    url: /mobileiron/usecases/
+    url: /mobileiron/
   - title: "動画で学ぶ"
     url: /videos/
   - title: "クイックスタートガイド"
-    url: /cloud-quickstart-guide/activation/
-#  - title: "技術ノート"
-#    url: /technotes/
+    url: /cloud-quickstart-guide/
+  - title: "技術ノート"
+    url: /technotes/
 # - title: "体験セミナー"
 #   url: /miniseminar/
 
@@ -17,7 +17,7 @@ mobileiron:
   - title: "MobileIronの活用例"
     children:
       - title: "多様なユースケース"
-        url: /mobileiron/usecases/
+        url: /mobileiron/
       - title: "ナレッジワーカー：会社支給デバイス"
         url: /mobileiron/knowledgeworker-cope/
       - title: "ナレッジワーカー：BYOD"
@@ -47,7 +47,7 @@ cloud-quickstart-guide:
   - title: "はじめに"
     children:
       - title: "テナントのアクティベーション"
-        url: /cloud-quickstart-guide/activation/
+        url: /cloud-quickstart-guide/
       - title: "オンラインヘルプ"
         url: /cloud-quickstart-guide/onlinehelp/
   - title: "ユーザーとデバイス"
@@ -152,4 +152,28 @@ videos:
     children:
       - title: "ゼロ・サインオン"
         url: /videos/zso/
-        
+
+
+#TechNotes
+
+macos-quickstart:
+  - title: "macOSクイックスタートガイド"
+    children:
+    - title: "Mobile@Workを準備する"
+      url: /technotes/macos-quickstart/
+    - title: "デバイスを登録する"
+      url: /technotes/macos-quickstart/device-registration/
+    - title: "MDMアクション"
+      url: /technotes/macos-quickstart/mdm-actions/
+
+windows-quickstart:
+  - title: "Windows10クイックスタートガイド"
+    children:
+    - title: "MobileIron Bridgeを準備する"
+      url: /technotes/windows-quickstart/
+    - title: "Apps@Workの証明書認証を構成する"
+      url: /technotes/windows-quickstart/apps-at-work/
+    - title: "デバイスを登録する"
+      url: /technotes/windows-quickstart/device-registration/
+    - title: "MDMアクション"
+      url: /technotes/windows-quickstart/mdm-actions/

@@ -1,6 +1,6 @@
 ---
 title: "モバイルとデスクトップの多様なユースケース"
-permalink: /mobileiron/usecases/
+permalink: /mobileiron/
 ---
 ![モバイルとデスクトップの多様なユースケース](/assets/mobileiron/images/2020Mar/3.jpeg)
 
