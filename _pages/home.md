@@ -15,7 +15,7 @@ feature_row:
     alt: "mobileiron"
     title: "MobileIronでできること"
     excerpt: "MobileIronを使って、どのようにセキュアで働きやすいモバイルIT環境を実現するのかを簡単に理解できます。"
-    url: "/mobileiron/usecases/"
+    url: "/mobileiron/"
     btn_class: "btn--info"
     btn_label: "詳細を見る"
   - image_path: /assets/images/home-menu-videos.jpg
@@ -29,7 +29,7 @@ feature_row:
     alt: "quickstart"
     title: "クイックスタートガイド"
     excerpt: "MobileIron Cloudをこれからご利用いただくお客様のために、簡単なガイドブックをご用意しました。"
-    url: "/cloud-quickstart-guide/activation/"
+    url: "/cloud-quickstart-guide/"
     btn_class: "btn--info"
     btn_label: "使ってみる"      
 ---
