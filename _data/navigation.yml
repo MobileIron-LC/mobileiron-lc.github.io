@@ -177,3 +177,13 @@ windows-quickstart:
       url: /technotes/windows-quickstart/device-registration/
     - title: "MDMアクション"
       url: /technotes/windows-quickstart/mdm-actions/
+
+apple-business-manager:
+  - title: "Apple Business Manager"
+    children:
+    - title: "Apple Business Managerとは"
+      url: /technotes/apple-business-manager/
+    - title: "自動デバイス登録"
+      url: /technotes/apple-business-manager/device-enrollment/
+    - title: "アプリの一括購入"
+      url: /technotes/apple-business-manager/apps-and-books/
