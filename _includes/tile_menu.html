@@ -33,6 +33,15 @@
             </div>
           {% endif %}
         </div>
+
+        {% if t.tags %}
+        {% assign tags = t.tags | split: "," %}
+          <div class="archive__item-tags">
+            {%for tag in tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     {% if t.url %}
     </a>

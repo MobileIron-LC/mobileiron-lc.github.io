@@ -4,6 +4,8 @@ main:
     url: /mobileiron/
   - title: "動画で学ぶ"
     url: /videos/
+  - title: "導入事例"
+    url: /case-studies/
   - title: "クイックスタートガイド"
     url: /cloud-quickstart-guide/
   - title: "技術ノート"
@@ -99,7 +101,7 @@ cloud-quickstart-guide:
     children:
       - title: "Android Enterpriseを有効にする"
         url: /cloud-quickstart-guide/ae-setup/
-      - title: "Android Enterpriseの３つの管理モード"
+      - title: "Android Enterpriseの管理モード"
         url: /cloud-quickstart-guide/ae-intro/
       - title: "Managed Google Playでアプリを配布する"
         url: /cloud-quickstart-guide/ae-managed-goole-play/

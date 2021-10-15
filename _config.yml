@@ -211,6 +211,9 @@ collections:
   videos:
     output: true
     permalink: /:collection/:path/
+  case-studies:
+    output: true
+    permalink: /:collection/:path/
   cloud-quickstart-guide:
     output: true
     permalink: /:collection/:path/
@@ -251,19 +254,6 @@ defaults:
       comments: false
       sidebar:
         nav: "mobileiron"
-  # _cloud-quickstart-guide
-  - scope:
-      path: ""
-      type: cloud-quickstart-guide
-    values:
-      layout: single
-      classes: wide
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "cloud-quickstart-guide"
   # _videos
   - scope:
       path: ""
@@ -277,6 +267,32 @@ defaults:
       comments: false
       sidebar:
         nav: "videos"
+  # _case-studies
+  - scope:
+      path: ""
+      type: case-studies
+    values:
+      layout: single
+      classes: wide
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "case-studies"
+  # _cloud-quickstart-guide
+  - scope:
+      path: ""
+      type: cloud-quickstart-guide
+    values:
+      layout: single
+      classes: wide
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "cloud-quickstart-guide"
   # _technotes
   - scope:
       path: ""

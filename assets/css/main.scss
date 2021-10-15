@@ -46,6 +46,7 @@
 
 .masthead__menu-item {
   font-weight: 300;
+  font-size: smaller;
 }
 
 .greedy-nav a.site-title {
@@ -82,6 +83,28 @@
   border: 0;
 }
 
+
+
+.tile__menu .archive__item-teaser {
+  margin: 0.5em 1em 0.5em 1em;
+}
+
+.tile__menu .archive__item-tags {
+  border-top: 1px whitesmoke solid;
+  margin: 0.5em 1em 0.5em 1em;
+}
+
+.tile__menu .archive__item-tags span {
+  display: inline-block;
+  background-color: whitesmoke;
+  color: gray;
+  border-radius: 0.2em;
+  width: auto;
+  height: auto;
+  margin-top: 0.1em;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  font-size: 60%;
+}
 
 .tile__menu .feature__item {
   margin-bottom: 1em;

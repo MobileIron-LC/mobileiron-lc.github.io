@@ -2,12 +2,13 @@
 title: "Android Enterpriseの管理モード"
 permalink: /cloud-quickstart-guide/ae-intro/
 ---
-Android Enterpriseには次の３つの管理モードがあり、ユースケースにより適したモードを選択して利用します。
+Android Enterpriseには次の４つの管理モードがあり、ユースケースにより適したモードを選択して利用します。
 - Work Profile
 - Fully Managed
-- Fully Managed + Work Profile
+- Fully Managed + Work Profile (Android 8-10)
+- Work Profile on Company Owned Device (Android 11+)
 
-![](/assets/cloud-quickstart-guide/images/9a8d239d-1e0e-4035-b258-f8e0277afab0.png)
+![](/assets/cloud-quickstart-guide/images/E5D8096B-0F5B-4328-BD9F-79C26A519442.png)
 
 ### Work Profile
 
@@ -29,14 +30,22 @@ MobileIron Cloudから管理できるのは、仕事の領域とその中にイ�
 
 こちらの[ビデオ](/videos/ae-registration/)ご覧くとわかりやすいです。
 
-### Fully Managed + Work Profile
+### Fully Managed + Work Profile (Android 8-10)
 
-Fully Managedモードと同様にデバイス全体を企業で管理するものの、ユーザーが自由にアプリをインストールして利用できる個人領域も用意されているのがFully Managed + Work Profileモードです。
+Fully Managedモードと同様にデバイス全体を企業で管理するものの、ユーザーが自由にアプリをインストールして利用できる個人領域も用意されているのがFully Managed + Work Profileモードです。このモードはAndroid 8-10でのみ利用できます。
 
 デバイスのセットアップ方法はFully Managedと同じで、「ようこそ」画面から特別なセットアップ方法のいずれかを行います。
 
+### Work Profile on Company Owned Device (Android 11+)
+
+Android 8-10 の Fully Managed + Work Profile の後継となるモードです。Fully Managed + Work Profileにあった、個人でインストールしたアプリの一覧が企業で収集できることなど従業員のプライバシーの観点での懸念が解消されています。
+
+こちらもデバイスのセットアップ方法はFully Managedと同じで、「ようこそ」画面から特別なセットアップ方法のいずれかを行います。
+
 ## デバイス登録時の管理モード選択のしくみ
 
-３つの管理モードのうち、どのモードで管理されるかは、MobileIron Cloudへのデバイス登録時に決まります。通常の初期セットアップを行ったデバイスにMobileIron Goをインストールしてデバイス登録した場合には、Work Profileにしかなりません。  
-企業がデバイス全体の管理権限を持つ、Fully Managed または Fully Managed + Work Profile にするためには「ようこそ」画面から特別なセットアップが必要です。またこのとき Fully Managed と Fully Managed + Work Profile のどちらになるかは、MobileIron Cloud側の設定によって決定します。詳しくは後のデバイス登録のページで説明します。  
-![](/assets/cloud-quickstart-guide/images/A514A635-4BD9-48C1-A773-117A064F2701.png)
+４つの管理モードのうち、どのモードで管理されるかは、MobileIron Cloudへのデバイス登録時に決まります。通常の初期セットアップを行ったデバイスにMobileIron Goをインストールしてデバイス登録した場合には、Work Profileにしかなりません。  
+企業がデバイス全体の管理権限を持つ、Fully Managed または Fully Managed + Work Profile / Work Profile on Company Owned Device にするためには「ようこそ」画面から特別なセットアップが必要です。またこのとき Fully Managed と Fully Managed + Work Profile / Work Profile on Company Owned Device のどちらになるかは、MobileIron Cloud側の設定によって決定します。詳しくは後のデバイス登録のページで説明します。  
+![](/assets/cloud-quickstart-guide/images/822067C9-8905-444E-80E1-708D2190FC8C.png)
+
+Fully Managed + Work Profile と Work Profile on Company Owned Device については、MobileIron CloudにおいてはデバイスのAndroidバージョン（8-10か、11以降か）によって自動的に決定されるので、分けて考える必要はありません。
