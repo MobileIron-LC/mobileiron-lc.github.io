@@ -109,7 +109,7 @@ cloud-quickstart-guide:
         url: /cloud-quickstart-guide/ae-goapp-permission/
       - title: "デバイスを登録する（Work Profile）"
         url: /cloud-quickstart-guide/ae-register-wp/
-      - title: "デバイスを登録する（Fully Managed + Work Profile）"
+      - title: "デバイスを登録する（Fully Managed + Work Profile / Work Profile on Company Owned Device）"
         url: /cloud-quickstart-guide/ae-register-comp/
       - title: "デバイスを登録する（Fully Managed）"
         url: /cloud-quickstart-guide/ae-register-do/

@@ -9,7 +9,7 @@ MDMアクションはデバイスの詳細画面から実行できます。
 
 ## ロック
 
-ロックを実行するとスクリーンがロック画面となり、現在設定されているPINコードや生体認証などによって解除できます。この動作はAndroid Enterpriseの３つの管理モード全てにおいて同様です。
+ロックを実行するとスクリーンがロック画面となり、現在設定されているPINコードや生体認証などによって解除できます。この動作はAndroid Enterpriseの４つの管理モード全てにおいて同様です。
 
 ## アンロック
 
@@ -23,7 +23,9 @@ Android Enterpriseの管理モードによってアンロックの影響範囲�
 <tr><td rowspan="2"> Work Profile </td><td> デバイス </td><td> 影響なし </td></tr>
 <tr><td> 仕事用プロファイル </td><td> 0000に設定 </td></tr>
 <tr><td> Fully Managed </td><td> デバイス </td><td> 0000に設定 </td></tr>
-<tr><td rowspan="2"> Fully Managed + Work Profile </td><td> デバイス </td><td> 0000に設定 </td></tr>
+<tr><td rowspan="2"> Fully Managed + Work Profile (Android 8-10) </td><td> デバイス </td><td> 0000に設定 </td></tr>
+<tr><td> 仕事用プロファイル </td><td> 0000に設定 </td></tr>
+<tr><td rowspan="2"> Work Profile on Company Owned Device (Android 11+) </td><td> デバイス </td><td> 影響なし </td></tr>
 <tr><td> 仕事用プロファイル </td><td> 0000に設定 </td></tr>
 </tbody>
 </table>
@@ -44,6 +46,11 @@ Work Profileのデバイスのロック画面は企業の管理対象外であ�
 |---|---|
 |Work Profile|仕事用プロファイルのみが削除される|
 |Fully Managed|デバイス全体がワイプされる|
-|Fully Managed + Work Profile|デバイス全体がワイプされる|
+|Fully Managed + Work Profile (Android 8-10)|デバイス全体がワイプされる|
+|Work Profile on Company Owned Device (Android 11+)|デバイス全体がワイプされる|
+
+## WPCODデバイスの所有の解除
+
+Work Profile on Company Owned Deviceのデバイスは、「所有の解除」（Relinquish）アクションにより、Work Profileだけを撤去することができます。デバイスはワイプされず、個人領域のアプリはそのまま残ります。
 
 各MDMアクションにおけるデバイスの動作について、こちらの[ビデオ](/videos/ae-mdm-action-in-3modes/)も参考にして下さい。
